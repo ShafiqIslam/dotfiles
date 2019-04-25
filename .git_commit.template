@@ -1,0 +1,73 @@
+# |<-----   Any lines below must be at maximum of 72 characters  ----->|
+# -------------------- Commit Message Start  --------------------------|
+# |<----   Preferably using up to 50 chars   --->|<------------------->|
+# [<tag>] (This commit will ) <subject>
+
+
+# --- Everything below is optional ---
+# (This commit is being made becasuse )
+
+
+# (This commit addresses the WHY by doing )
+
+
+# (This commit addresses ticket(s) recognized by) <<program> issues>
+
+
+# (This commit took references from)
+
+
+# (Co-authored by) <Full Name <email>>
+
+
+# -------------------- Commit Message End  ----------------------------|
+
+# ----------------------------- MAN  ----------------------------------|
+# 
+# Sections:
+#   1. SUBJECT: Everything needs a subject/title.
+#      Ex: [INIT] Implement automated commit messages
+#
+#   ----- Everything below is optional -----
+#   2. WHY: Explain the reason for this commit. Maybe, just because AI 
+#      told so.
+#   3. WHAT: Explain what(not how) makes this commit address why. What 
+#      was wrong before, for what they work now. How should be in code.
+#   4. Tickets: Provide links or keys to any relevant tickets.
+#      Ex: 
+#      - <JIRA> SHEBA-123, AW-456
+#      - <SENTRY> 1122334455
+#   5. References: Provide links to relevant so/github/other resources.
+#      Long links can be broken, until some markdown is supported.
+#      Ex:
+#      - https://chris.beams.io/posts/git-commit/
+#      - https://gist.github.com/zakkak/7e06725ebd1336bfebebe254de3de825
+#   6. Co-authors: Who else worked on this commit, if you pair program.
+#      Ex: Hasan Hafiz Pasha <pasha.startern@gmail.com>
+# ---------------------------------------------------------------------|
+#
+# Tags: 
+#   INIT     (initial commit for new feature/project)
+#   ADD      (add something)
+#   UPDATE   (update something)
+#   FIX      (bug fix)
+#   REFACTOR (refactoring code)
+#   STYLE    (formatting, missing semi colon, etc; no logic change)
+#   DOC      (changes to documentation)
+#   TEST     (adding/updating tests; no production code change)
+#   DEBUG    (debugging code/frameworks; no production code change)
+#   HACK     (temporary fix to make things move forward)
+#   WIP      (intermediate commits to keep patches reasonably sized)
+#
+# Note: Multiple tags can be combined, 
+# [FIX][REFACTOR] Fix issue X with methodhandles
+# ---------------------------------------------------------------------|
+#
+# Remember to:
+#   * Capitalize the subject line.
+#   * Use the imperative mood in the subject line.
+#   * Do not end the subject line with a period.
+#   * Separate subject from body with a blank line.
+#   * Use the body to explain what and why vs. how.
+#   * Use multiple lines with "-" for bullet points in body.
+# ---------------------------------------------------------------------|
