@@ -1,0 +1,228 @@
+{
+    "subject_preferred_length": 50,
+    "subject_max_length": 72,
+    "body_max_length": 72,
+    "types": [
+        {
+            "emoji": "➕",
+            "code": ":heavy_plus_sign:",
+            "description": "Generic add.",
+            "name": "ADD"
+        }, {
+            "emoji": "⬆️",
+            "code": ":arrow_up:",
+            "description": "Generic Update.",
+            "name": "UPDATE"
+        }, {
+            "emoji": "🎨",
+            "code": ":art:",
+            "description": "Improving format of the code.",
+            "name": "STYLE"
+        }, {
+            "emoji": "⚡️",
+            "code": ":zap:",
+            "description": "Improving performance.",
+            "name": "PERF"
+        }, {
+            "emoji": "🔥",
+            "code": ":fire:",
+            "description": "Removing code or files.",
+            "name": "REMOVE"
+        }, {
+            "emoji": "🐛",
+            "code": ":bug:",
+            "description": "Fixing a bug.",
+            "name": "FIX"
+        }, {
+            "emoji": "🚑",
+            "code": ":ambulance:",
+            "description": "Critical hotfix.",
+            "name": "HOTFIX"
+        }, {
+            "emoji": "✨",
+            "code": ":sparkles:",
+            "description": "Introducing new features.",
+            "name": "FEATURE"
+        }, {
+            "emoji": "🚀",
+            "code": ":rocket:",
+            "description": "Deploying stuff.",
+            "name": "DEPLOY"
+        }, {
+            "emoji": "💄",
+            "code": ":lipstick:",
+            "description": "Updating the UI and style files.",
+            "name": "UI"
+        }, {
+            "emoji": "🎉",
+            "code": ":tada:",
+            "description": "Initial commit.",
+            "name": "INIT"
+        }, {
+            "emoji": "✅",
+            "code": ":white_check_mark:",
+            "description": "Adding/updating tests.",
+            "name": "TEST"
+        }, {
+            "emoji": "🔒",
+            "code": ":lock:",
+            "description": "Fixing security issues.",
+            "name": "SECURITY"
+        }, {
+            "emoji": "🚨",
+            "code": ":rotating_light:",
+            "description": "Removing linter warnings.",
+            "name": "LINT"
+        }, {
+            "emoji": "🚧",
+            "code": ":construction:",
+            "description": "Work in progress.",
+            "name": "WIP"
+        }, {
+            "emoji": "👷",
+            "code": ":construction_worker:",
+            "description": "CI/CD related tasks.",
+            "name": "CICD"
+        }, {
+            "emoji": "📈",
+            "code": ":chart_with_upwards_trend:",
+            "description": "Adding analytics or tracking code.",
+            "name": "ANALYTICS"
+        }, {
+            "emoji": "♻️",
+            "code": ":recycle:",
+            "description": "Refactoring code.",
+            "name": "REFACTORING"
+        }, {
+            "emoji": "🐳",
+            "code": ":whale:",
+            "description": "Work about Docker.",
+            "name": "DOCKER"
+        }, {
+            "emoji": "📦",
+            "code": ":package:",
+            "description": "Updating dependencies or packages.",
+            "name": "PACKAGE"
+        }, {
+            "emoji": "🔧",
+            "code": ":wrench:",
+            "description": "Changing configuration files.",
+            "name": "CONFIG"
+        }, {
+            "emoji": "🌐",
+            "code": ":globe_with_meridians:",
+            "description": "Internationalization and localization.",
+            "name": "I18N"
+        }, {
+            "emoji": "✏️",
+            "code": ":pencil2:",
+            "description": "Fixing typos.",
+            "name": "TYPO"
+        }, {
+            "emoji": "💩",
+            "code": ":poop:",
+            "description": "Writing bad code that needs to be improved.",
+            "name": "SHIT"
+        }, {
+            "emoji": "⏪",
+            "code": ":rewind:",
+            "description": "Reverting changes.",
+            "name": "REVERT"
+        }, {
+            "emoji": "🔀",
+            "code": ":twisted_rightwards_arrows:",
+            "description": "Merging branches.",
+            "name": "MERGE"
+        }, {
+            "emoji": "👽",
+            "code": ":alien:",
+            "description": "Updating code due to external API changes.",
+            "name": "COMPAT"
+        }, {
+            "emoji": "🚚",
+            "code": ":truck:",
+            "description": "Moving or renaming files.",
+            "name": "MV"
+        }, {
+            "emoji": "💥",
+            "code": ":boom:",
+            "description": "Introducing breaking changes.",
+            "name": "BREAKING"
+        }, {
+            "emoji": "🍱",
+            "code": ":bento:",
+            "description": "Adding or updating assets.",
+            "name": "ASSETS"
+        }, {
+            "emoji": "👌",
+            "code": ":ok_hand:",
+            "description": "Updating code due to code review changes.",
+            "name": "REVIEW"
+        }, {
+            "emoji": "💡",
+            "code": ":bulb:",
+            "description": "Documenting source code.",
+            "name": "DOCS"
+        }, {
+            "emoji": "🍻",
+            "code": ":beers:",
+            "description": "Writing code drunkenly.",
+            "name": "BEER"
+        }, {
+            "emoji": "💬",
+            "code": ":speech_balloon:",
+            "description": "Updating text and literals.",
+            "name": "TEXTS"
+        }, {
+            "emoji": "🗃",
+            "code": ":card_file_box:",
+            "description": "Performing database related changes.",
+            "name": "DB"
+        }, {
+            "emoji": "🔊",
+            "code": ":loud_sound:",
+            "description": "Working with debugging logs.",
+            "name": "LOG"
+        }, {
+            "emoji": "🚸",
+            "code": ":children_crossing:",
+            "description": "Improving user experience / usability.",
+            "name": "UX"
+        }, {
+            "emoji": "🏗",
+            "entity": "&#1f3d7;",
+            "code": ":building_construction:",
+            "description": "Making architectural changes.",
+            "name": "ARCH"
+        }, {
+            "emoji": "📱",
+            "entity": "&#128241;",
+            "code": ":iphone:",
+            "description": "Working on responsive design.",
+            "name": "RESPONSIVE"
+        }, {
+            "emoji": "🤡",
+            "entity": "&#129313;",
+            "code": ":clown_face:",
+            "description": "Mocking things.",
+            "name": "MOCK"
+        }, {
+            "emoji": "🥚",
+            "entity": "&#129370;",
+            "code": ":egg:",
+            "description": "Adding an easter egg.",
+            "name": "EGG"
+        }, {
+            "emoji": "🙈",
+            "entity": "&#8bdfe7;",
+            "code": ":see_no_evil:",
+            "description": "Adding or updating a .gitignore file.",
+            "name": "SEE-NO-EVIL"
+        }, {
+            "emoji": "⚗",
+            "code": ":alembic:",
+            "description": "Trying something new.",
+            "name": "EXPERIMENTAL"
+        }
+    ]
+}

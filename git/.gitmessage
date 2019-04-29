@@ -1,7 +1,7 @@
 # |<-----   Any lines below must be at maximum of 72 characters  ----->|
 # -------------------- Commit Message Start  --------------------------|
 # |<----   Preferably using up to 50 chars   --->|<------------------->|
-# [<tag>] (This commit will ) <subject>
+# [<type>] (This commit will ) <subject>
 
 
 # --- Everything below is optional ---
@@ -23,18 +23,18 @@
 # -------------------- Commit Message End  ----------------------------|
 
 # ----------------------------- MAN  ----------------------------------|
-# 
+#
 # Sections:
 #   1. SUBJECT: Everything needs a subject/title.
 #      Ex: [INIT] Implement automated commit messages
 #
 #   ----- Everything below is optional -----
-#   2. WHY: Explain the reason for this commit. Maybe, just because AI 
+#   2. WHY: Explain the reason for this commit. Maybe, just because AI
 #      told so.
-#   3. WHAT: Explain what(not how) makes this commit address why. What 
+#   3. WHAT: Explain what(not how) makes this commit address why. What
 #      was wrong before, for what they work now. How should be in code.
 #   4. Tickets: Provide links or keys to any relevant tickets.
-#      Ex: 
+#      Ex:
 #      - <JIRA> SHEBA-123, AW-456
 #      - <SENTRY> 1122334455
 #   5. References: Provide links to relevant so/github/other resources.
@@ -46,20 +46,18 @@
 #      Ex: Hasan Hafiz Pasha <pasha.startern@gmail.com>
 # ---------------------------------------------------------------------|
 #
-# Tags: 
-#   INIT     (initial commit for new feature/project)
-#   ADD      (add something)
-#   UPDATE   (update something)
+# Some of the frequently used Types:
 #   FIX      (bug fix)
 #   REFACTOR (refactoring code)
 #   STYLE    (formatting, missing semi colon, etc; no logic change)
 #   DOC      (changes to documentation)
-#   TEST     (adding/updating tests; no production code change)
-#   DEBUG    (debugging code/frameworks; no production code change)
 #   HACK     (temporary fix to make things move forward)
 #   WIP      (intermediate commits to keep patches reasonably sized)
 #
-# Note: Multiple tags can be combined, 
+# Full list can be found here:
+#   https://github.com/ShafiqIslam/dotfiles/git/.czrc.json
+#
+# Note: Multiple types can be combined,
 # [FIX][REFACTOR] Fix issue X with methodhandles
 # ---------------------------------------------------------------------|
 #
