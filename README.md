@@ -8,3 +8,7 @@ ________   ________   ______________________.___ .____     ___________  ________
 ```
 
 Trying to pose like a ninja, without a sword.
+
+
+1. Set DOTFILES_DIR to /etc/environment
+2. Install NerdFonts
