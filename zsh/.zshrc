@@ -102,9 +102,20 @@ DISABLE_UPDATE_PROMPT=true
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git docker laravel node npm redis-cli docker-compose zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(
+    git docker laravel node npm redis-cli docker-compose sudo
+    zsh-syntax-highlighting zsh-autosuggestions
+)
 
 source $ZSH/oh-my-zsh.sh
+
+alias ll='colorls -lA --sd --group-directories-first'
+alias ls='colorls --group-directories-first'
+
+bindkey '^`' autosuggest-clear
+
+LS_COLORS='di=1:fi=0:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=36:*.rpm=90'
+export LS_COLORS
 
 # User configuration
 
