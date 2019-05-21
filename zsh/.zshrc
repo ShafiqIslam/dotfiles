@@ -3,7 +3,9 @@
 
 # Path to your oh-my-zsh installation.
 # export ZSH="$(dirname $(readlink -f $0))/.oh-my-zsh"
-export ZSH="$DOTFILES_DIR/zsh/.oh-my-zsh"
+export ZSH="$DOTFILES_DIR/zsh/oh-my-zsh"
+
+ZSH_CUSTOM="$DOTFILES_DIR/zsh/oh-my-zsh-custom"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
