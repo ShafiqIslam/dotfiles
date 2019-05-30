@@ -224,5 +224,37 @@
             "description": "Trying something new.",
             "name": "EXPERIMENTAL"
         }
+    ],
+    "authors": [
+        {
+            "name": "Shafiqul Islam",
+            "email": "shafiq.startern@gmail.com"
+        }, {
+            "name": "Hasan Hafiz Pasha",
+            "email": "mac.pasha@gmail.com"
+        }, {
+            "name": "Arnab Rahman",
+            "email": "arnab.startern@gmail.com"
+        }, {
+            "name": "Saiful Islam Miajee",
+            "email": "saiful.sheba@gmail.com"
+        }, {
+            "name": "Sirajum Munira Akhand",
+            "email": "sirajum.startern@gmail.com"
+        }, {
+            "name": "Irteza Asad",
+            "email": "irtezaasad.sheba@gmail.com"
+        }, {
+            "name": "Saddam Hossain",
+            "email": "saddam@sheba.xyz"
+        }, {
+            "name": "Sakibur Rahaman Chowdhury",
+            "email": "sakibur@sheba.xyz"
+        }
+    ],
+    "ticket_trackers": [
+        "JIRA",
+        "BUGSNAG",
+        "SENTRY"
     ]
 }
