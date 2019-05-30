@@ -1,7 +1,12 @@
 # |<-----   Any lines below must be at maximum of 72 characters  ----->|
 # -------------------- Commit Message Start  --------------------------|
 # |<----   Preferably using up to 50 chars   --->|<------------------->|
-# [<type>] (This commit will ) <subject>
+# (This commit will ) <subject>
+
+
+# (Type of this commit: ) <type(s)>
+
+# (Scope of this commit: ) <scope(s)>
 
 
 # --- Everything below is optional ---
@@ -43,7 +48,9 @@
 #      - https://chris.beams.io/posts/git-commit/
 #      - https://gist.github.com/zakkak/7e06725ebd1336bfebebe254de3de825
 #   6. Co-authors: Who else worked on this commit, if you pair program.
-#      Ex: Hasan Hafiz Pasha <pasha.startern@gmail.com>
+#      Ex:
+#      - Hasan Hafiz Pasha <pasha.startern@gmail.com>
+#      - Arnab Rahman <arnab.startern@gmail.com>
 # ---------------------------------------------------------------------|
 #
 # Some of the frequently used Types:
@@ -58,7 +65,7 @@
 #   https://github.com/ShafiqIslam/dotfiles/git/.czrc.json
 #
 # Note: Multiple types can be combined,
-# [FIX][REFACTOR] Fix issue X with methodhandles
+# Types: [FIX][REFACTOR]
 # ---------------------------------------------------------------------|
 #
 # Remember to:
