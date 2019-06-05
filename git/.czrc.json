@@ -252,7 +252,7 @@
             "email": "sakibur@sheba.xyz"
         }
     ],
-    "ticket_trackers": [
+    "issue_trackers": [
         "JIRA",
         "BUGSNAG",
         "SENTRY"
