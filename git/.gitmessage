@@ -16,7 +16,7 @@
 # (This commit addresses the WHY by doing )
 
 
-# (This commit addresses ticket(s) recognized by) <<program> issues>
+# (This commit addresses issue(s) recognized by) <<program> issues>
 
 
 # (This commit took references from)
@@ -38,7 +38,7 @@
 #      told so.
 #   3. WHAT: Explain what(not how) makes this commit address why. What
 #      was wrong before, for what they work now. How should be in code.
-#   4. Tickets: Provide links or keys to any relevant tickets.
+#   4. Issues: Provide links or keys to any relevant issues.
 #      Ex:
 #      - <JIRA> SHEBA-123, AW-456
 #      - <SENTRY> 1122334455
