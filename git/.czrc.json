@@ -256,5 +256,21 @@
         "JIRA",
         "BUGSNAG",
         "SENTRY"
-    ]
+    ],
+    "section_headers": {
+        "types": "Type(s): ",
+        "scopes": "Scope(s): ",
+        "what": "Why:\n",
+        "why": "What:\n",
+        "issues": "Issue(s):\n",
+        "references": "Reference(s):\n",
+        "co_authors": "Co Authored By:\n"
+    },
+    "bullet": "- ",
+    "inline_separator": ", ",
+    "issue_tracker_id_separator": ": ",
+    "author_email_tag": {
+        "start": " <",
+        "end": ">"
+    }
 }
