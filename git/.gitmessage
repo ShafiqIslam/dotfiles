@@ -1,28 +1,28 @@
 # |<-----   Any lines below must be at maximum of 72 characters  ----->|
+# ----- Uncomment a section and update, see example for reference -----|
 # -------------------- Commit Message Start  --------------------------|
 # |<----   Preferably using up to 50 chars   --->|<------------------->|
 # (This commit will ) <subject>
 
 
-# (Type of this commit: ) <type(s)>
+# Type(s): 
 
-# (Scope of this commit: ) <scope(s)>
+# ----------------- Everything below is optional ----------------------|
+# Scope(s):
 
-
-# --- Everything below is optional ---
-# (This commit is being made becasuse )
-
-
-# (This commit addresses the WHY by doing )
+# Why:
 
 
-# (This commit addresses ticket(s) recognized by) <<program> issues>
+# What:
 
 
-# (This commit took references from)
+# Issue(s):
 
 
-# (Co-authored by) <Full Name <email>>
+# Reference(s):
+
+
+# Co-authored by:
 
 
 # -------------------- Commit Message End  ----------------------------|
@@ -31,41 +31,74 @@
 #
 # Sections:
 #   1. SUBJECT: Everything needs a subject/title.
-#      Ex: [INIT] Implement automated commit messages
+#      Ex: Implement automated commit messages
+#   2. TYPES: Predefined type of the commit.
+# 	   Some of the frequently used Types:
+#      FIX      (bug fix)
+#      REFACTOR (refactoring code)
+#      STYLE    (formatting, missing semi colon, etc; no logic change)
+#      DOC      (changes to documentation)
+#      HACK     (temporary fix to make things move forward)
+#      WIP      (intermediate commits to keep patches reasonably sized)
 #
-#   ----- Everything below is optional -----
-#   2. WHY: Explain the reason for this commit. Maybe, just because AI
+#      Full list can be found here: 
+#      https://github.com/ShafiqIslam/dotfiles/git/.czrc.json
+#
+#      Note: Multiple types can be combined, Type(s): FIX, REFACTOR
+#      ------------ Everything below is optional ----------------------|
+#   3. Scopes: Affected scopes/areas of the project. Select from a 
+#      predefined list, which is generated for that project.
+#   4. WHY: Explain the reason for this commit. Maybe, just because AI
 #      told so.
-#   3. WHAT: Explain what(not how) makes this commit address why. What
+#   5. WHAT: Explain what(not how) makes this commit address why. What
 #      was wrong before, for what they work now. How should be in code.
-#   4. Tickets: Provide links or keys to any relevant tickets.
+#   6. Tickets: Provide links or keys to any relevant tickets.
 #      Ex:
-#      - <JIRA> SHEBA-123, AW-456
-#      - <SENTRY> 1122334455
-#   5. References: Provide links to relevant so/github/other resources.
+#      - JIRA: SHEBA-123, AW-456
+#      - SENTRY: 1122334455
+#   7. References: Provide links to relevant so/github/other resources.
 #      Long links can be broken, until some markdown is supported.
 #      Ex:
 #      - https://chris.beams.io/posts/git-commit/
 #      - https://gist.github.com/zakkak/7e06725ebd1336bfebebe254de3de825
-#   6. Co-authors: Who else worked on this commit, if you pair program.
+#   8. Co-authors: Who else worked on this commit, if you pair program.
 #      Ex:
 #      - Hasan Hafiz Pasha <pasha.startern@gmail.com>
 #      - Arnab Rahman <arnab.startern@gmail.com>
 # ---------------------------------------------------------------------|
 #
-# Some of the frequently used Types:
-#   FIX      (bug fix)
-#   REFACTOR (refactoring code)
-#   STYLE    (formatting, missing semi colon, etc; no logic change)
-#   DOC      (changes to documentation)
-#   HACK     (temporary fix to make things move forward)
-#   WIP      (intermediate commits to keep patches reasonably sized)
+# Full example:
+# -------------
 #
-# Full list can be found here:
-#   https://github.com/ShafiqIslam/dotfiles/git/.czrc.json
+# Implement automated commit messages
 #
-# Note: Multiple types can be combined,
-# Types: [FIX][REFACTOR]
+# Type(s): ADD, DOC
+#
+# Scope(s): structure, manual
+#
+# Why:
+# Commit messages need to be organized accross the team to maintain a 
+# cleaner view about the lifetime of a project. It also helps to make 
+# commit messages machine readable to gather further insights or 
+# integrate with other softwares.
+# 
+# What:
+# This commit intoduces a template which will be used to automatically
+# by git when commiting. This also gives the overview about the rules,
+# which is expected from a commit message.
+#
+# Issue(s):
+# JIRA: SHEBA-000
+#
+# Reference(s):
+# - https://chris.beams.io/posts/git-commit/
+# - https://gist.github.com/zakkak/7e06725ebd1336bfebebe254de3de825
+#
+# Co-authored by:
+# - Hasan Hafiz Pasha <pasha.startern@gmail.com>
+# - Arnab Rahman <arnab.startern@gmail.com>
+# ---------------------------------------------------------------------|
+#
 # ---------------------------------------------------------------------|
 #
 # Remember to:
