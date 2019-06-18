@@ -52,7 +52,7 @@
 #      told so.
 #   5. WHAT: Explain what(not how) makes this commit address why. What
 #      was wrong before, for what they work now. How should be in code.
-#   6. Tickets: Provide links or keys to any relevant tickets.
+#   4. Issues: Provide links or keys to any relevant issues.
 #      Ex:
 #      - JIRA: SHEBA-123, AW-456
 #      - SENTRY: 1122334455
