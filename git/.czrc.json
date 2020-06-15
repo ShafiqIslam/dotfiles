@@ -228,7 +228,7 @@
     "authors": [
         {
             "name": "Shafiqul Islam",
-            "email": "shafiq.startern@gmail.com"
+            "email": "shafiqul@sheba.xyz"
         }, {
             "name": "Hasan Hafiz Pasha",
             "email": "mac.pasha@gmail.com"
@@ -237,7 +237,7 @@
             "email": "arnab.startern@gmail.com"
         }, {
             "name": "Saiful Islam Miajee",
-            "email": "saiful.sheba@gmail.com"
+            "email": "miajee@sheba.xyz"
         }, {
             "name": "Sirajum Munira Akhand",
             "email": "sirajum.startern@gmail.com"
@@ -246,11 +246,23 @@
             "email": "irtezaasad.sheba@gmail.com"
         }, {
             "name": "Saddam Hossain",
-            "email": "saddam@sheba.xyz"
+            "email": "tonmoy@sheba.xyz"
         }, {
-            "name": "Sakibur Rahaman Chowdhury",
-            "email": "sakibur@sheba.xyz"
-        }
+			"name": "Johanur Rahman",
+			"email": "johanur@sheba.xyz"
+		}, {
+            "name": "Abdullah Al Shakib Arnab",
+            "email": "abdullah.arnab@sheba.xyz"
+        }, {
+            "name": "Shovan Chowdhury",
+            "email": "shovancse0918@gmail.com"
+        }, {
+            "name": "Raqibul Hasan Real",
+            "email": "raqibul@sheba.xyz"
+        }, {
+			"name": "MD Rashad Akhtar",
+			"email": "rashad@sheba.xyz"
+		}
     ],
     "issue_trackers": [
         "JIRA",
@@ -260,8 +272,8 @@
     "section_headers": {
         "types": "Type(s): ",
         "scopes": "Scope(s): ",
-        "what": "Why:\n",
-        "why": "What:\n",
+        "what": "What:\n",
+        "why": "Why:\n",
         "issues": "Issue(s):\n",
         "references": "Reference(s):\n",
         "co_authors": "Co Authored By:\n"
