@@ -5,6 +5,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+source /etc/environment
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -35,6 +37,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 HIST_STAMPS="mm/dd/yyyy"
 
 DISABLE_UPDATE_PROMPT=true
+
+ZSH_DISABLE_COMPFIX=true
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load

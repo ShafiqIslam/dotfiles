@@ -11,4 +11,5 @@ Trying to pose like a ninja, without a sword.
 
 
 1. Set DOTFILES_DIR to /etc/environment
-2. Install NerdFonts
+2. Install NerdFonts - FuraMono Nerd Font
+3. Install colorls
