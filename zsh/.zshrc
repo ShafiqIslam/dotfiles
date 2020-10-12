@@ -88,9 +88,6 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-alias ll='colorls -lA --sd --group-directories-first'
-alias ls='colorls --group-directories-first'
-
 bindkey '^`' autosuggest-clear
 
 LS_COLORS='di=1:fi=0:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=36:*.rpm=90'
@@ -124,6 +121,8 @@ export LS_COLORS
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+[[ ! -f $ZSHRC_DIR/aliases.zsh ]] || source $ZSHRC_DIR/aliases.zsh
 
 [[ ! -f $ZSHRC_DIR/paths.zsh ]] || source $ZSHRC_DIR/paths.zsh
 
