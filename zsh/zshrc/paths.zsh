@@ -13,3 +13,4 @@ export PATH=$PATH:$ANDROID_HOME/build-tools/28.0.3
 #export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'
 
 export PATH=$PATH:$HOME/.composer/vendor/bin
+export PATH=$PATH:$(ruby -e 'puts Gem.bindir')
