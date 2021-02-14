@@ -106,24 +106,26 @@ bindsym $mod+a focus parent
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 
+# Icons are set in polybar config
 # home
 set $ws1 "1"
 # terminal
 set $ws2 "2"
-# code
+# docker
 set $ws3 "3"
-# browser
+# servers
 set $ws4 "4"
-# db
+# code
 set $ws5 "5"
-# vcs
+# browser
 set $ws6 "6"
-# extra
+# db
 set $ws7 "7"
-
-# unused
+# vcs
 set $ws8 "8"
+# file
 set $ws9 "9"
+# misc
 set $ws10 "10"
 
 # switch to workspace
@@ -150,7 +152,7 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
-assign [class="^Google-chrome$"] $ws4
+assign [class="^Google-chrome$"] $ws6
 
 # reload the configuration file
 bindsym $mod+Shift+c reload

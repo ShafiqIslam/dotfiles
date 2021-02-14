@@ -1,5 +1,5 @@
 [colors]
-background = #11FF0000
+background = #22222222
 foreground = #dfdfdf
 foreground-light = #555
 red = #e53935
@@ -34,8 +34,9 @@ module-margin-right = 1
 ;===FONTS===
 
 font-0 = "Fira Code:style=Regular:size=14;3"
-font-1 = "FontAwesome:style=Regular:pixelsize=14;2"
-font-2 = "FontAwesome5Brands:pixelsize=14;2"
+font-1 = "Font Awesome 5 Free Solid:style=Regular:pixelsize=12;1"
+font-2 = "FontAwesome:style=Regular:pixelsize=14;2"
+font-3 = "Font Awesome 5 Brands:style=Regular:pixelsize=14;2"
 
 
 ;===MODULES===
@@ -44,7 +45,7 @@ font-2 = "FontAwesome5Brands:pixelsize=14;2"
 modules-left = i3
 # modules-center = spotify
 # modules-right = eth wlan bluetooth-status battery cpu memory pulseaudio-control date
-modules-right = eth wlan battery cpu memory date
+modules-right = battery cpu memory date
  
 tray-position = right
 tray-padding = 2
@@ -70,17 +71,19 @@ enable-click = true
 enable-scroll = false
 wrapping-scroll = false
 reverse-scroll = false
-fuzzy-match = true
+# https://github.com/polybar/polybar/issues/2082
+fuzzy-match = false
 
 ws-icon-0 = 1;
 ws-icon-1 = 2;
-ws-icon-2 = 3;
-ws-icon-3 = 4;
-ws-icon-4 = 5;
-ws-icon-5 = 6;
-ws-icon-6 = 7;
-ws-icon-7 = 8;
-ws-icon-8 = 9;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-5 = 6;
+ws-icon-6 = 7;
+ws-icon-7 = 8;
+ws-icon-8 = 9;
+ws-icon-9 = 10;
 
 format = <label-state>
 
@@ -129,7 +132,7 @@ card = intel_backlight
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = " "
+format-prefix = ""
 format-prefix-foreground = ${colors.foreground-light}
 ;format-underline = #f90000
 label = %percentage:2%%
@@ -142,7 +145,7 @@ click-left = urxvt -e 'htop'
 
 interval = 2
 
-format-prefix = " "
+format-prefix = ""
 format-prefix-foreground = ${colors.foreground-light}
 label = " %gb_used%"
 
