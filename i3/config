@@ -153,6 +153,8 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 assign [class="^Google-chrome$"] $ws6
+assign [instance="Navicat.exe"] $ws7
+assign [instance="gitkraken"] $ws8
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
