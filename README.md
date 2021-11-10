@@ -14,6 +14,8 @@ Trying to pose like a ninja, without a sword.
     1.  i3-gaps, i3bar, i3status, polybar
     1.  terminator, zsh, compton
     1.  colorls, ranger, feh, rofy
+    1.  docker, npm
+    1.  neofetch, cmatrix, gtop
     1.  fonts: NerdFonts - FuraMono Nerd Font, Source Code Pro Nerd Font, Font Awesome  
 1.  Set DOTFILES_DIR to /etc/environment
 1.  Set zsh as shell
@@ -23,3 +25,5 @@ Trying to pose like a ninja, without a sword.
     1. ~/.config/polybar  ⇒  ${DOTFILES_DIR}/polybar
     1. ~/.config/ranger  ⇒  ${DOTFILES_DIR}/ranger
     1. ~/.config/terminator  ⇒  ${DOTFILES_DIR}/terminator
+    1. ~/.config/rofi  ⇒  ${DOTFILES_DIR}/rofi
+    1. ~/.config/neofetch  ⇒  ${DOTFILES_DIR}/neofetch
