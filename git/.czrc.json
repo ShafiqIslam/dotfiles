@@ -251,12 +251,9 @@
             "name": "Shovan Chowdhury",
             "email": "shovancse0918@gmail.com"
         }, {
-            "name": "Raqibul Hasan Real",
-            "email": "raqibul@sheba.xyz"
-        }, {
-			"name": "MD Rashad Akhtar",
-			"email": "rashad@sheba.xyz"
-		}
+	    "name": "MD Rashad Akhtar",
+	    "email": "rashad@sheba.xyz"
+	}
     ],
     "issue_trackers": [
         "JIRA",
