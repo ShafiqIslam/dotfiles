@@ -242,9 +242,6 @@
             "name": "Saddam Hossain",
             "email": "tonmoy@sheba.xyz"
         }, {
-			"name": "Johanur Rahman",
-			"email": "johanur@sheba.xyz"
-		}, {
             "name": "Abdullah Al Shakib Arnab",
             "email": "abdullah.arnab@sheba.xyz"
         }, {
@@ -260,6 +257,7 @@
         "BUGSNAG",
         "SENTRY"
     ],
+    "default_issue_tracker": "JIRA",
     "section_headers": {
         "types": "Type(s): ",
         "scopes": "Scope(s): ",

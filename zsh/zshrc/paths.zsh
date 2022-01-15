@@ -2,6 +2,10 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/g
 
 export GOPATH=~/gocode
 
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export PATH=$PATH:$JAVA_HOME
+export PATH=$PATH:$JAVA_HOME/bin
+
 export GRADLE_HOME=/opt/gradle/gradle-5.6
 export PATH=${GRADLE_HOME}/bin:${PATH}
 
