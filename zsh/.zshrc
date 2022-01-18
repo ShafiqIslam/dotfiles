@@ -135,3 +135,5 @@ export SDKMAN_DIR="$HOME/.sdkman"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 # Generated file will be located on home folder. Move it to $ZSHRC_DIR.
 [[ ! -f $ZSHRC_DIR/p10k.zsh ]] || source $ZSHRC_DIR/p10k.zsh
+
+eval $(thefuck --alias)

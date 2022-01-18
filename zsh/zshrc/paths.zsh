@@ -21,3 +21,4 @@ export PATH=$PATH:$HOME/.composer/vendor/bin
 export PATH=$PATH:$(ruby -e 'puts Gem.bindir')
 
 export PATH="$PATH:$HOME/.dotnet/tools/"
+export PATH="$PATH:$HOME/.local/bin/"
