@@ -13,7 +13,7 @@ Trying to pose like a ninja, without a sword.
 1.  Requirements:
     1.  i3-gaps, i3bar, i3status, polybar
     1.  terminator, zsh, compton
-    1.  colorls, ranger, feh, rofy, xsel
+    1.  colorls, ranger, feh, rofy, xsel, bat
     1.  docker, npm
     1.  neofetch, cmatrix, gtop
     1.  fonts: NerdFonts - FuraMono Nerd Font, Source Code Pro Nerd Font, Font Awesome  
