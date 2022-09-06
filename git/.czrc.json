@@ -273,5 +273,8 @@
     "author_email_tag": {
         "start": " <",
         "end": ">"
-    }
+    },
+    "extra_imperative_verbs": [
+	"sync", "trim"
+    ]
 }
