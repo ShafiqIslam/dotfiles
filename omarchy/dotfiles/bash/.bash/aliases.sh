@@ -70,7 +70,7 @@ alias nrb='nr build'
 alias nu='npm update'
 alias nci='npm ci'
 alias nlu='npm list -g --depth=0'
-alias np='npm publish'
+alias np='npm publish --access public'
 alias nun='npm uninstall'
 
 # Spring Boot shortcuts
