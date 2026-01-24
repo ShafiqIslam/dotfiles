@@ -1,0 +1,5 @@
+[[database]]
+Name = 'bkash-cca-dev'
+Provider = 'postgres'
+DBName = 'bkash_cca'
+URL = 'postgres://bkash_read:bkash_read_pass@192.168.13.205:5433/bkash_cca?sslmode=disable'

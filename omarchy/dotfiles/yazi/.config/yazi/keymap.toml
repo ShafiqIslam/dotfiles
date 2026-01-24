@@ -1,0 +1,5 @@
+[mgr]
+prepend_keymap = [
+	{ on = "<Enter>",   run = "help",                        desc = "Open selected files" },
+	{ on = "<S-Enter>", run = "help",                        desc = "Open selected files interactively" },
+]
