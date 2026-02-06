@@ -1,5 +1,6 @@
 # alias p='python'
 
+alias srcbrc="source ~/.bashrc"
 alias cat='bat --paging=never'
 
 # Git aliases. g='git' comes from omarchy...
@@ -9,14 +10,20 @@ alias gpl='g pull'
 alias gps='g push'
 alias gs='g status'
 alias ga='g add .'
-alias gc='ga && g cz'
+alias gc='g cz'
+alias gac='ga && gc'
+alias gcns='SUGGESTION=false gc'
+alias gacns='ga && gcns'
+alias gaca='ga && g commit --amend --no-edit'
 alias gco='g checkout'
 alias gb='g branch'
 alias gr='g remote'
 alias grso='gr set-url origin'
+alias grao='gr add origin'
 alias gl='g log'
 alias gl1='gl -1'
 alias gm='g merge'
+alias grh='g reset --hard'
 
 # Docker aliases. d='docker' comes from omarchy...
 alias dps='d ps -a'
@@ -74,7 +81,8 @@ alias nrb='nr build'
 alias nu='npm update'
 alias nci='npm ci'
 alias nlu='npm list -g --depth=0'
-alias np='npm publish --access public'
+alias np='npm publish'
+alias npp='np --access public'
 alias nun='npm uninstall'
 
 # Spring Boot shortcuts
