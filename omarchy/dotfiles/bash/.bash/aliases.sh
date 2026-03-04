@@ -1,7 +1,10 @@
 # alias p='python'
 
 alias srcbrc="source ~/.bashrc"
+alias ocat='cat'
 alias cat='bat --paging=never'
+alias hg="history | grep"
+alias cal3="cal -3 -s"
 
 # Git aliases. g='git' comes from omarchy...
 alias gi='g init'
@@ -22,6 +25,7 @@ alias grso='gr set-url origin'
 alias grao='gr add origin'
 alias gl='g log'
 alias gl1='gl -1'
+alias glg='gl --graph --oneline --decorate --all'
 alias gm='g merge'
 alias grh='g reset --hard'
 
@@ -67,6 +71,7 @@ alias kl='k logs -f'
 alias kex='k exec -it'
 alias kap='k apply -f'
 alias kdel='k delete -f'
+alias kpf='k port-forward'
 
 # NPM shortcuts
 alias ni='npm install'

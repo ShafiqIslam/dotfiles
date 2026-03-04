@@ -1,5 +1,31 @@
+ConfigFile = '/home/shafiqistaken/.config/lazysql/config.toml'
+
+[application]
+DefaultPageSize = 300
+DisableSidebar = false
+SidebarOverlay = false
+MaxQueryHistoryPerConnection = 100
+
 [[database]]
 Name = 'bkash-cca-dev'
-Provider = 'postgres'
-DBName = 'bkash_cca'
 URL = 'postgres://bkash_read:bkash_read_pass@192.168.13.205:5433/bkash_cca?sslmode=disable'
+Provider = 'postgres'
+Username = ''
+Password = ''
+Hostname = ''
+Port = ''
+DBName = 'bkash_cca'
+URLParams = ''
+Commands = []
+
+[[database]]
+Name = 'zaytoon-fin-admin-dev'
+URL = 'postgres://zaytoon_fintech_user:zaytoon_fintech_pass@192.168.13.205:5433/zaytoon_fin_admin?sslmode=disable'
+Provider = 'postgres'
+Username = ''
+Password = ''
+Hostname = ''
+Port = ''
+DBName = 'zaytoon_fin_admin'
+URLParams = ''
+Commands = []
