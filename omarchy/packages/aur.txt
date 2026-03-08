@@ -1,0 +1,4 @@
+brave-bin
+hyprmon-bin
+lazysql
+warp-terminal
