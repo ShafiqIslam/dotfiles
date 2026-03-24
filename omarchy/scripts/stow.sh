@@ -16,9 +16,11 @@ PACKAGES=(
   uwsm
   waybar
   yazi
+  sdkman
 )
 
 for pkg in "${PACKAGES[@]}"; do
   echo "📦 Stowing $pkg"
+  # stow -d ~/projects/dotfiles/omarchy/dotfiles -t ~ pkg
   stow -d "$DOTFILES_DIR" -t ~ "$pkg"
 done

@@ -18,3 +18,5 @@ export PATH="$ANDROID_SDK:$PATH"
 export SDKMAN_DIR="$HOME/.sdkman"
 SDKMAN_BIN="$SDKMAN_DIR/bin"
 [[ -s "$SDKMAN_BIN/sdkman-init.sh" ]] && source "$SDKMAN_BIN/sdkman-init.sh"
+# Enable auto-env
+sdk env enable
