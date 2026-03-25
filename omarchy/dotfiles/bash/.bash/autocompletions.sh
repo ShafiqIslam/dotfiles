@@ -1,4 +1,4 @@
-_dd_completion() {
+_docker_container_completion() {
     local cur prev opts
     COMPREPLY=()
     cur="${COMP_WORDS[COMP_CWORD]}"
@@ -10,4 +10,6 @@ _dd_completion() {
     return 0
 }
 
-complete -F _dd_completion dd
+complete -F _docker_container_completion dd
+complete -F _docker_container_completion dex
+complete -F _docker_container_completion dlog
