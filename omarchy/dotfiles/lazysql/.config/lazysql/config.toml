@@ -41,3 +41,15 @@ Port = ''
 DBName = 'zaytoon_fin_applications'
 URLParams = ''
 Commands = []
+
+[[database]]
+Name = 'berger-dev'
+URL = 'mysql://berger_user:berger_pass@192.168.13.25:6033/berger_360'
+Provider = 'mysql'
+Username = ''
+Password = ''
+Hostname = ''
+Port = ''
+DBName = 'berger_360'
+URLParams = ''
+Commands = []
