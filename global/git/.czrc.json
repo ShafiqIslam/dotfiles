@@ -223,34 +223,73 @@
             "code": ":alembic:",
             "description": "Trying something new.",
             "name": "EXPERIMENTAL"
+        }, {
+            "emoji": "📝",
+            "code": ":memo:",
+            "description": "Creating or updating executable specifications.",
+            "name": "SPEC"
+        }, {
+            "emoji": "🗺️",
+            "code": ":world_map:",
+            "description": "Creating or revising technical implementation plans.",
+            "name": "PLAN"
+        }, {
+            "emoji": "📋",
+            "code": ":clipboard:",
+            "description": "Breaking specifications into ordered implementation tasks.",
+            "name": "TASKS"
+        }, {
+            "emoji": "🤝",
+            "code": ":handshake:",
+            "description": "Transferring context, status, blockers, and next steps.",
+            "name": "HANDOFF"
+        }, {
+            "emoji": "🚩",
+            "code": ":triangular_flag_on_post:",
+            "description": "Recording a verified pause or resumable workflow state.",
+            "name": "CHECKPOINT"
+        }, {
+            "emoji": "🧭",
+            "code": ":compass:",
+            "description": "Recording an approved product or technical decision.",
+            "name": "DECISION"
+        }, {
+            "emoji": "🏁",
+            "code": ":checkered_flag:",
+            "description": "Reviewing an epic against goals, evidence, and remaining gaps.",
+            "name": "EPIC-REVIEW"
+        }, {
+            "emoji": "🧪",
+            "code": ":test_tube:",
+            "description": "Adding or updating agent evaluations and acceptance evidence.",
+            "name": "EVAL"
+        }, {
+            "emoji": "🎯",
+            "code": ":dart:",
+            "description": "Reconciling implementation with specifications, plans, and tasks.",
+            "name": "CONVERGE"
+        }, {
+            "emoji": "🤖",
+            "code": ":robot:",
+            "description": "Changing agent roles, instructions, tools, or orchestration.",
+            "name": "AGENT"
+        }, {
+            "emoji": "🛡️",
+            "code": ":shield:",
+            "description": "Adding or changing safety, policy, or approval controls.",
+            "name": "GUARDRAIL"
+        }, {
+            "emoji": "🙋",
+            "code": ":raising_hand:",
+            "description": "Recording a human review, approval, rejection, or intervention.",
+            "name": "HITL"
         }
     ],
     "authors": [
         {
             "name": "Shafiqul Islam",
             "email": "shafiqul@sheba.xyz"
-        }, {
-            "name": "Hasan Hafiz Pasha",
-            "email": "mac.pasha@gmail.com"
-        }, {
-            "name": "Arnab Rahman",
-            "email": "arnab.startern@gmail.com"
-        }, {
-            "name": "Saiful Islam Miajee",
-            "email": "miajee@sheba.xyz"
-        }, {
-            "name": "Saddam Hossain",
-            "email": "tonmoy@sheba.xyz"
-        }, {
-            "name": "Abdullah Al Shakib Arnab",
-            "email": "abdullah.arnab@sheba.xyz"
-        }, {
-            "name": "Shovan Chowdhury",
-            "email": "shovancse0918@gmail.com"
-        }, {
-	    "name": "MD Rashad Akhtar",
-	    "email": "rashad@sheba.xyz"
-	}
+        }
     ],
     "issue_trackers": [
         "JIRA",

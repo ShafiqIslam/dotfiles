@@ -3,6 +3,7 @@ alias ocat='cat'
 alias cat='bat --paging=never'
 alias hg="history | grep"
 alias cal3="cal -3 -s"
+alias ah="agenthive-tui"
 
 # Git aliases. g='git' comes from omarchy...
 alias gi='git init'
@@ -79,6 +80,7 @@ alias kns='kubectl config set-context --current --namespace'
 alias kl='kubectl logs -f'
 alias kex='kubectl exec -it'
 alias ka='kubectl apply -f'
+alias kak='kubectl apply -k .'
 alias kdel='kubectl delete -f'
 alias kpf='kubectl port-forward'
 alias kr='kubectl rollout restart'
@@ -127,3 +129,6 @@ alias fpcclu='fvm flutter pub cache clear --dry-run'
 
 # Python shortcuts
 alias p='python'
+
+# Herdr shortcuts
+alias h='herdr'

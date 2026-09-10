@@ -17,6 +17,7 @@ PACKAGES=(
   waybar
   yazi
   sdkman
+  desktop
 )
 
 for pkg in "${PACKAGES[@]}"; do

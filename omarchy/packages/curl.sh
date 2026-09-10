@@ -11,6 +11,15 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.6/install.sh | bash
 echo "Installing FVM..."
 curl -fsSL https://fvm.app/install.sh | bash
 
+echo "Installing Claude Code..."
+curl -fsSL https://claude.ai/install.sh | bash
+
+echo "Installing Herdr..."
+curl -fsSL https://herdr.dev/install.sh | sh
+
+echo "Installing PI..."
+curl -fsSL https://pi.dev/install.sh | sh
+
 echo "Installing Krew..."
 (
   set -x; cd "$(mktemp -d)" &&

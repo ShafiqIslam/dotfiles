@@ -8,13 +8,25 @@ MaxQueryHistoryPerConnection = 100
 
 [[database]]
 Name = 'bkash-cca-dev'
-URL = 'postgres://bkash_read:bkash_read_pass@192.168.13.205:5433/bkash_cca?sslmode=disable'
-Provider = 'postgres'
+URL = 'mysql://bkash-cca-user:bkash@cca!password@192.168.13.43:6033/bkash_cca_core'
+Provider = 'mysql'
 Username = ''
 Password = ''
 Hostname = ''
 Port = ''
-DBName = 'bkash_cca'
+DBName = 'bkash_cca_core'
+URLParams = ''
+Commands = []
+
+[[database]]
+Name = 'demo-cca-dev'
+URL = 'mysql://bkash-cca-user:bkash@cca!password@192.168.13.43:6033/demo_cca_core'
+Provider = 'mysql'
+Username = ''
+Password = ''
+Hostname = ''
+Port = ''
+DBName = 'demo_cca_core'
 URLParams = ''
 Commands = []
 
@@ -51,5 +63,17 @@ Password = ''
 Hostname = ''
 Port = ''
 DBName = 'berger_360'
+URLParams = ''
+Commands = []
+
+[[database]]
+Name = 'agenthive-local'
+URL = 'mysql://agenthive_user:agenthive_pass@0.0.0.0:10030/agenthive_db'
+Provider = 'mysql'
+Username = ''
+Password = ''
+Hostname = ''
+Port = ''
+DBName = 'agenthive_db'
 URLParams = ''
 Commands = []

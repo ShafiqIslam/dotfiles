@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=IntelliJ IDEA Edition
+Icon=/home/shafiqistaken/applications/idea/current/bin/idea.svg
+Exec="/home/shafiqistaken/applications/idea/current/bin/idea.sh" %f
+Comment=Capable and Ergonomic IDE for JVM
+Categories=Development;IDE;
+Terminal=false
+StartupWMClass=jetbrains-idea-ce
+StartupNotify=true
